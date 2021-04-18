@@ -25,9 +25,7 @@ struct AddWebsiteView: View {
 					.buttonStyle(LinkButtonStyle())
 			}
 			Spacer()
-			Button("More ideas") {
-				"https://github.com/sindresorhus/Plash/issues/1".openUrl()
-			}
+			Link2("More ideas", destination: "https://github.com/sindresorhus/Plash/issues/1")
 				.buttonStyle(LinkButtonStyle())
 		}
 			.box()
